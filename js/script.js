@@ -1,9 +1,9 @@
-function init(){
-//add your javascrip between these two lines of code
+function init()
+ {
 
-  function clickAlertMe(){
+  function clickAlertMe() {
     var text = document.getElementById("entryinput").value;
-    alert("Harrison Loh: " + text);
+    alert("Tingting Hu: " + text);
     document.getElementById("textoutput").innerHTML = text
   }
   var entrybtn = document.getElementById("entrybutton");
